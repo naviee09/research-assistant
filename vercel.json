@@ -1,0 +1,11 @@
+﻿{
+  "version": 2,
+  "buildCommand": "CI=false DISABLE_ESLINT_PLUGIN=true craco build",
+  "devCommand": "craco start",
+  "installCommand": "npm install",
+  "outputDirectory": "build",
+  "environment": {
+    "CI": "false",
+    "DISABLE_ESLINT_PLUGIN": "true"
+  }
+}
