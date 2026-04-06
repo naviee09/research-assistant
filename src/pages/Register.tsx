@@ -4,7 +4,7 @@ import { useAuth } from '../contexts/AuthContext';
 import { Button } from '../components/ui/button';
 import { Input } from '../components/ui/input';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '../components/ui/card';
-import { Eye, EyeOff, Mail, Lock, User, ArrowRight, Sparkles, CheckCircle, AlertCircle, Shield } from 'lucide-react';
+import { Eye, EyeOff, Mail, Lock, User, ArrowRight,   AlertCircle, Shield } from 'lucide-react';
 
 const Register = () => {
   const [formData, setFormData] = useState({
@@ -87,7 +87,7 @@ const Register = () => {
           <CardContent className="p-8">
             {error && (
               <div className="mb-4 p-3 bg-red-100 border border-red-400 text-red-700 rounded flex items-center">
-                <AlertCircle className="w-5 h-5 mr-2" />
+                <a href="#"lertCircle className="w-5 h-5 mr-2" />
                 {error}
               </div>
             )}
@@ -222,11 +222,11 @@ const Register = () => {
                 <div className="ml-3 text-sm">
                   <label htmlFor="terms" className="text-gray-700">
                     I agree to the{' '}
-                    <a href="#" className="text-green-600 hover:text-green-500 font-medium">
+                    <a href="#" href="#" className="text-green-600 hover:text-green-500 font-medium">
                       Terms of Service
                     </a>{' '}
                     and{' '}
-                    <a href="#" className="text-green-600 hover:text-green-500 font-medium">
+                    <a href="#" href="#" className="text-green-600 hover:text-green-500 font-medium">
                       Privacy Policy
                     </a>
                   </label>
@@ -246,7 +246,7 @@ const Register = () => {
                 ) : (
                   <>
                     Create Account
-                    <ArrowRight className="w-5 h-5 ml-2" />
+                    <a href="#"rrowRight className="w-5 h-5 ml-2" />
                   </>
                 )}
               </Button>

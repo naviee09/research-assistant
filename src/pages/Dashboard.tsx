@@ -149,7 +149,7 @@ const Dashboard = () => {
     });
   };
 
-  const getSourceTypeCount = (reports: Report[], type: string) => {
+  // const getSourceTypeCount = (reports: Report[], type: string) => {
     return reports.reduce((count, report) => {
       return count + report.sources.filter((source: any) => source.type === type).length;
     }, 0);

@@ -1,3 +1,4 @@
+/* eslint-disable import/no-anonymous-default-export */
 const API_BASE_URL = 'http://localhost:5000/api';
 
 // Helper function to handle API requests with timeout

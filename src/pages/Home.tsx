@@ -14,7 +14,7 @@ const Home = () => {
     credits: 0,
     totalSources: 0
   });
-  const [dataFreshness, setDataFreshness] = useState({
+  // const [dataFreshness, setDataFreshness] = useState({
     lastUpdate: '',
     isFresh: true
   });

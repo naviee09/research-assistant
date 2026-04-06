@@ -59,7 +59,7 @@ const Login = () => {
           <CardContent className="p-8">
             {error && (
               <div className="mb-4 p-3 bg-red-100 border border-red-400 text-red-700 rounded flex items-center">
-                <AlertCircle className="w-5 h-5 mr-2" />
+                <a href="#"lertCircle className="w-5 h-5 mr-2" />
                 {error}
               </div>
             )}
@@ -122,7 +122,7 @@ const Login = () => {
                   </label>
                 </div>
                 <div className="text-sm">
-                  <a href="#" className="font-medium text-purple-600 hover:text-purple-500">
+                  <a href="#" href="#" className="font-medium text-purple-600 hover:text-purple-500">
                     Forgot password?
                   </a>
                 </div>
@@ -141,7 +141,7 @@ const Login = () => {
                 ) : (
                   <>
                     Sign In
-                    <ArrowRight className="w-5 h-5 ml-2" />
+                    <a href="#"rrowRight className="w-5 h-5 ml-2" />
                   </>
                 )}
               </Button>
